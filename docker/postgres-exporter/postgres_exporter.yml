@@ -1,0 +1,8 @@
+auth_modules:
+  myauthmodule: 
+    type: userpass
+    userpass:
+        username: postgres
+        password: postgres
+    options:
+        sslmode: disable
